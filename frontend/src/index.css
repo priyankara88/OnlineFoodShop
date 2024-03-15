@@ -9,3 +9,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@keyframes fedin {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.header {
+  animation: fedin 3s;
+}

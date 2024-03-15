@@ -27,7 +27,7 @@ const Nav = () => {
       <div className="md:flex md:flex-row md:space-x-3 md:pr-2 ">
         <img src={assets.search_icon} alt="icon1" />
         <img src={assets.basket_icon} alt="icon2" />
-        <div className=" w-2 h-2 absolute md:right-40 md:top-2 rounded-full bg-red-600 " />
+        <div className=" w-2 h-2 absolute md:right-60 md:top-2 rounded-full bg-red-600 " />
         <button className="rounded-lg border-2 border-gray-700 md:px-2 hover:bg-slate-300">
           sign in
         </button>
