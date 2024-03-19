@@ -9,6 +9,7 @@ const MainRouter = () => {
         <Routes>
           <Route path="/" Component={MainLayouts}>
             <Route index Component={Home} />
+            {/* test data */}
           </Route>
         </Routes>
       </BrowserRouter>
