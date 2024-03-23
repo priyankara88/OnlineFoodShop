@@ -9,7 +9,7 @@ const FilterProvider = ({ children }) => {
   };
 
   return (
-    <FilterContext.Provider value={{ FoodItemDetails }}>
+    <FilterContext.Provider value={FoodItemDetails}>
       {children}
     </FilterContext.Provider>
   );
